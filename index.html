@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Romantic Image -->
+        <img src="cute.gif" alt="Valentine Image">
+        <h1>Will you be my Valentine? ❤️</h1>
+
+        <!-- Button Container -->
+        <div class="button-container">
+            <button id="yesbutton">Yes</button>
+            <button id="nobutton">No</button>
+        </div>
+    </div>
+    
+    <!-- Modal Pop-up for "Yes" -->
+    <div id="yesModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="yesModalText">I love youuu honeyy❤️! See you soon!</p>
+            <img src="thank.gif" alt="Happy Image">
+        </div>
+    </div>
+
+    <!-- Modal Pop-up for "No" -->
+    <div id="noModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="noModalText"></p>
+            <img id="noModalImg" src="" alt="Sad Image">
+        </div>
+    </div>
+
+    <script src="main.js"></script> <!-- Correct script file reference -->
+</body>
+</html>
